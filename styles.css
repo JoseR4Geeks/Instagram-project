@@ -1,0 +1,51 @@
+.post-header {
+    display: flex;
+}
+.post-icons {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+Body {
+    background-color: lightgray;
+    font-family: 'roboto', sans-serif;
+}
+.post {
+    background-color: white;
+    margin: auto;
+    height: 700px;
+    width: 500px;
+}
+.username {
+    margin-left: 0px;
+    margin-top: 7px;
+}
+.pfp {
+    margin: 10px;
+    
+
+}
+.post-header p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.bulletpoint {
+    margin-left: auto;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.pfp img {
+    border-radius: 50%;
+}
+
+
+.post-icons div:not(.bookmark) {
+    margin: 4px;
+}
+.bookmark {
+    margin-left: auto;
+    margin-right: 20px;
+}
+.post-body p {
+    margin-left: 10px;
+}
